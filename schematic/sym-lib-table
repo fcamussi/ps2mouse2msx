@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name minidin6)(type Legacy)(uri ${KIPRJMOD}/minidin6.lib)(options "")(descr ""))
+)

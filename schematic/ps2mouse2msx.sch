@@ -1,0 +1,225 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 7087 4724
+encoding utf-8
+Sheet 1 1
+Title "PS/2 Mouse to MSX Mouse Converter"
+Date "2020-12-17"
+Rev ""
+Comp "Fernando Camussi"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C2
+U 1 1 5FCB00AA
+P 2300 1600
+F 0 "C2" V 2150 1550 50  0000 L CNN
+F 1 "22pF" V 2450 1500 50  0000 L CNN
+F 2 "" H 2338 1450 50  0001 C CNN
+F 3 "~" H 2300 1600 50  0001 C CNN
+	1    2300 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5FCB13D7
+P 4300 1500
+F 0 "R3" V 4300 1450 50  0000 L CNN
+F 1 "10k" V 4400 1450 50  0000 L CNN
+F 2 "" V 4230 1500 50  0001 C CNN
+F 3 "~" H 4300 1500 50  0001 C CNN
+	1    4300 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5FCB1A76
+P 4300 1400
+F 0 "R2" V 4300 1350 50  0000 L CNN
+F 1 "10k" V 4200 1350 50  0000 L CNN
+F 2 "" V 4230 1400 50  0001 C CNN
+F 3 "~" H 4300 1400 50  0001 C CNN
+	1    4300 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 1100 4450 1100
+Connection ~ 3400 1100
+Connection ~ 3400 3000
+Wire Wire Line
+	3400 1100 2700 1100
+Wire Wire Line
+	2700 1100 2700 1400
+Wire Wire Line
+	2450 1600 2500 1600
+Wire Wire Line
+	2150 1600 2150 2200
+Wire Wire Line
+	2150 3000 3400 3000
+Wire Wire Line
+	1700 2200 2150 2200
+Connection ~ 2150 2200
+Wire Wire Line
+	2150 2200 2150 3000
+$Comp
+L Device:R R1
+U 1 1 5FCB209B
+P 2500 1250
+F 0 "R1" H 2300 1300 50  0000 L CNN
+F 1 "4.7k" H 2250 1200 50  0000 L CNN
+F 2 "" V 2430 1250 50  0001 C CNN
+F 3 "~" H 2500 1250 50  0001 C CNN
+	1    2500 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 1400 2500 1600
+Connection ~ 2500 1600
+Wire Wire Line
+	2500 1600 2700 1600
+Wire Wire Line
+	2500 1100 2700 1100
+Connection ~ 2700 1100
+Wire Wire Line
+	1700 1800 1950 1800
+Wire Wire Line
+	1950 1800 1950 1100
+Connection ~ 2500 1100
+Wire Wire Line
+	4100 1500 4150 1500
+Wire Wire Line
+	4450 1100 4450 1400
+Wire Wire Line
+	4450 1400 4450 1500
+Connection ~ 4450 1400
+Wire Wire Line
+	1700 2100 1800 2100
+Wire Wire Line
+	1800 2100 1800 1000
+Wire Wire Line
+	1800 1000 4100 1000
+Wire Wire Line
+	4100 1000 4100 1400
+Wire Wire Line
+	4100 2000 4250 2000
+Wire Wire Line
+	4250 2000 4250 2150
+Wire Wire Line
+	4250 2150 5000 2150
+Wire Wire Line
+	4750 3000 4750 2350
+Wire Wire Line
+	4750 2350 5000 2350
+Wire Wire Line
+	3400 3000 4750 3000
+Wire Wire Line
+	4450 2450 5000 2450
+Connection ~ 4450 1500
+Wire Wire Line
+	4450 1500 4450 2450
+Wire Wire Line
+	4100 2100 4550 2100
+Wire Wire Line
+	4550 2100 4550 1650
+Wire Wire Line
+	4550 1650 5000 1650
+Wire Wire Line
+	4100 2200 4600 2200
+Wire Wire Line
+	4600 2200 4600 1850
+Wire Wire Line
+	4600 1850 5000 1850
+Wire Wire Line
+	4100 2300 4650 2300
+Wire Wire Line
+	4650 2300 4650 2050
+Wire Wire Line
+	4650 2050 5000 2050
+Wire Wire Line
+	4100 2400 4700 2400
+Wire Wire Line
+	4700 2400 4700 2250
+Wire Wire Line
+	4700 2250 5000 2250
+Wire Wire Line
+	4100 2600 4400 2600
+Wire Wire Line
+	4400 2600 4400 1750
+Wire Wire Line
+	4400 1750 5000 1750
+Wire Wire Line
+	4100 2700 4800 2700
+Wire Wire Line
+	4800 2700 4800 1950
+Wire Wire Line
+	4800 1950 5000 1950
+Wire Wire Line
+	1750 2300 1700 2300
+Wire Wire Line
+	1750 950  1750 2300
+Wire Wire Line
+	4150 950  1750 950 
+Connection ~ 4100 1400
+Wire Wire Line
+	4100 1400 4150 1400
+Connection ~ 4150 1500
+$Comp
+L MCU_Microchip_PIC16:PIC16F84A-XXP U1
+U 1 1 5FCADCDA
+P 3400 2000
+F 0 "U1" H 3100 2800 50  0000 C CNN
+F 1 "PIC16F84A-XXP" H 3750 2800 50  0000 C CNN
+F 2 "" H 3400 2000 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/devicedoc/35007b.pdf" H 3400 2000 50  0001 C CNN
+	1    3400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:DB9_Female_MountingHoles J1
+U 1 1 5FD05E6B
+P 5300 2050
+F 0 "J1" H 5480 2052 50  0000 L CNN
+F 1 "DB9_Female_MountingHoles" H 5480 1961 50  0000 L CNN
+F 2 "" H 5300 2050 50  0001 C CNN
+F 3 " ~" H 5300 2050 50  0001 C CNN
+	1    5300 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L minidin6:Mini-DIN_6pins-Custom P1
+U 1 1 5FCAC70C
+P 1400 2000
+F 0 "P1" V 1251 1773 50  0000 R CNN
+F 1 "Mini-DIN_6pins" V 1342 1773 50  0000 R CNN
+F 2 "" V 1433 1773 50  0001 R CNN
+F 3 "" H 1400 2000 50  0000 C CNN
+	1    1400 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5FCB07E8
+P 3400 3150
+F 0 "C1" H 3515 3196 50  0000 L CNN
+F 1 "100nF" H 3515 3105 50  0000 L CNN
+F 2 "" H 3438 3000 50  0001 C CNN
+F 3 "~" H 3400 3150 50  0001 C CNN
+	1    3400 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1100 2050 3300
+Wire Wire Line
+	2050 3300 3400 3300
+Wire Wire Line
+	1950 1100 2050 1100
+Wire Wire Line
+	2050 1100 2500 1100
+Connection ~ 2050 1100
+Wire Wire Line
+	4150 950  4150 1500
+$EndSCHEMATC
