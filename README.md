@@ -2,7 +2,7 @@
 
 Adaptador de mouse PS/2 para MSX
 
-El proyecto consta de dos partes: Un esquema del circuito, el cuál se basa en un microcontrolador PIC16F84A, y el código para el mismo, es decir, el firmware.
+El proyecto consta de dos partes: Un esquema del circuito, el cuál consta en un microcontrolador PIC16F84A, y el código para el mismo, es decir, el firmware.
 
 El proyecto está basado en el adaptador de mouse PS/2 a Amiga de **Nevenko Baričević**, porteriormente modificado por **sundance**
 
