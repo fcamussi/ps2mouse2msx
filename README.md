@@ -1,6 +1,6 @@
 # ps2mouse2msx
 
-Adaptador de mouse PS/2 para MSX
+Adaptador de mouse PS/2 a MSX
 
 El proyecto consta de dos partes: Un esquema del circuito, el cuál utiliza un microcontrolador PIC16F84A, y el código para el mismo, es decir, el firmware.
 
