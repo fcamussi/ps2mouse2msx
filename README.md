@@ -24,4 +24,4 @@ Puede descargarse desde https://github.com/fcamussi/ps2mouse2msx/tree/main/schem
 
 ### Versión compilada
 
-Se puede descargar una versión compilada del firmware desde https://github.com/fcamussi/ps2mouse2msx/tree/main/firmware/build
+Se puede descargar una versión compilada del firmware desde [aquí](https://github.com/fcamussi/ps2mouse2msx/tree/main/firmware/build)
