@@ -14,6 +14,7 @@ El proyecto está basado en el adaptador de mouse PS/2 a Amiga de **Nevenko Bari
 
 Puede descargarse desde [aquí](https://github.com/fcamussi/ps2mouse2msx/tree/main/schematic)
 
+![esquema](https://user-images.githubusercontent.com/75378876/175794188-36a1ba7c-e46a-431f-8307-126c1a26419e.png)
 
 ## Firmware
 
