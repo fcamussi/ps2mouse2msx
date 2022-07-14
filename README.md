@@ -1,4 +1,4 @@
-# ps2mouse2msx
+# PS2mouse2msx
 
 Adaptador de mouse PS/2 a MSX
 
