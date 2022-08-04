@@ -29,3 +29,7 @@ Puede descargarse desde [aquí](https://github.com/fcamussi/ps2mouse2msx/tree/ma
 ### Versión compilada
 
 Se puede descargar una versión compilada del firmware desde [aquí](https://github.com/fcamussi/ps2mouse2msx/tree/main/firmware/build)
+
+## Notas
+
+Puede que con algún mouse genérico no sea compatible del todo. Con los mouses marca Genius funciona perfecto.
