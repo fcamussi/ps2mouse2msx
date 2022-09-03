@@ -14,13 +14,15 @@ El proyecto está basado en el adaptador de mouse PS/2 a Amiga de Nevenko Barič
 
 ![esquema](https://user-images.githubusercontent.com/75378876/175794188-36a1ba7c-e46a-431f-8307-126c1a26419e.png)
 
+Puede descargarse desde [aquí](https://github.com/fcamussi/ps2mouse2msx/tree/main/schematic)
+
 ### Requisitos
 
 * KiCad >= 5.1.5
 
-Puede descargarse desde [aquí](https://github.com/fcamussi/ps2mouse2msx/tree/main/schematic)
-
 ## Firmware
+
+Puede descargarse desde [aquí](https://github.com/fcamussi/ps2mouse2msx/tree/main/firmware)
 
 ### Requisitos
 
