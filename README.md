@@ -34,4 +34,4 @@ Se puede descargar una versión compilada del firmware desde [aquí](https://git
 
 ## Notas
 
-Puede que con algún mouse genérico no sea compatible del todo. Con los mouses marca Genius, por ejemplo, funciona perfectamente.
+Con algunos mouses puede haber incompatibilidad
