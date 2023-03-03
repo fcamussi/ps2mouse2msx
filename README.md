@@ -34,4 +34,4 @@ Se puede descargar una versión compilada del firmware desde [aquí](https://git
 
 ## Notas
 
-Con algunos mouses puede haber incompatibilidad
+Con algunos mouse puede haber incompatibilidad
